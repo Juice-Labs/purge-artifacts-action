@@ -2,7 +2,7 @@ import { Octokit } from '@octokit/core'
 import * as core from '@actions/core'
 import * as github from '@actions/github'
 import { restEndpointMethods } from '@octokit/plugin-rest-endpoint-methods'
-import { RestEndpointMethods } from '@octokit/plugin-rest-endpoint-methods/dist-types/generated/types'
+import { RestEndpointMethods } from '@octokit/plugin-rest-endpoint-methods/dist-types/generated/method-types'
 import parseDuration from 'parse-duration'
 
 /*

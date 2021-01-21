@@ -1,7 +1,7 @@
 declare type ActionsListArtifactsForRepoResponseArtifactsItem = {
   archive_download_url: string
   created_at: string
-  expired: string
+  expired: boolean
   expires_at: string
   id: number
   name: string
